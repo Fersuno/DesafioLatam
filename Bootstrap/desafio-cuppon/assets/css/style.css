@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #212529;
+  --secondary-color: #707070;
+  --light: #f8f9fa;
+  --white: #fff;
+  --success: #28a745;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  width: 18rem;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.card-direction {
+  font-size: 15px;
+}
+
+.card-footer span {
+  color: var(--success);
+  font-size: 24px;
+}
+
+.form {
+  width: 18rem;
+}
+
+.button {
+  background-color: var(--light);
+  color: var(--primary-color);
+}
+
+/* Utilidades */
+
+.success {
+  background-color: var(--success);
+}

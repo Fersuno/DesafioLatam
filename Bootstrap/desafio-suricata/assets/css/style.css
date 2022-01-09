@@ -1,0 +1,11 @@
+body {
+  font: "Open Sans", sans-serif;
+}
+
+:root {
+  --pink: #e83e8c;
+}
+
+.bg-pink {
+  background-color: var(--pink);
+}
